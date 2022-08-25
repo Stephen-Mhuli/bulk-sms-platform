@@ -1,0 +1,156 @@
+
+### Send POST request with json body
+GET http://localhost:8000/gateway/notification?message_id=1&status=1&sent_date=12/12/2021&part_number=23&message_cost=10&message_status=DELIVRD&dlr_date=19/10/2021
+Content-Type: application/json
+
+{
+
+}
+
+### Send POST request with json body
+POST http://localhost:8000/api/inbound
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|97NQSAhBXZ03bCbcrazFkKm8OjrJnhcfInL4eKps
+
+{
+    "from": "+14694149313",
+    "body": "good job",
+    "device_id": "c3f907cde25ae01a"
+}
+
+
+### Send POST request with json body
+GET http://localhost:8000/api/sms/template
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|3Tjb40I9PgsilDJNAkY8oGaaDOIrvmAetNA8DV6F
+
+{
+
+}
+
+### Send POST request with json body
+GET http://localhost:8000/api/contacts?page=2
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|3Tjb40I9PgsilDJNAkY8oGaaDOIrvmAetNA8DV6F
+
+{
+
+}
+
+### Send POST request with json body
+POST http://localhost:8000/api/sent/compose
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 2|uxaqGHWqtuMcs7WgJwlzla7hI4NfhiaJ3p0w3iQ0
+
+{
+
+  "device_id": "1"
+  "to_numbers": array:4 [
+    "0": "{"value":"+64234865541 (Cassandra Kirbee)","id":768,"type":"contact"}"
+    "1": "{"value":"+61576068545 (Phedra Helfand)","id":770,"type":"contact"}"
+    "2": "{"value":"+69772035702 (Audrie Holbrook)","id":774,"type":"contact"}"
+    "3": "{"value":"+25901230873 (Kirstin Orlene)","id":776,"type":"contact"}"
+  ]
+  "body": "Test Message"
+  "isSchedule": "on"
+  "schedule": "07/03/2022 12:00 AM"
+
+}
+
+
+### Send POST request with json body
+POST http://localhost:8000/inbound/message_bird
+Content-Type: application/json
+
+{
+    "To": "+14694149313",
+    "From": "+14694149022",
+    "Body": "Hello",
+    "data": {
+        "id": "9a9c83bc90d34a49b57fbc79e33bc5cd",
+        "href": "https://rest.messagebird.com/messages/9a9c83bc90d34a49b57fbc79e33bc5cd",
+        "direction": "mt",
+        "type": "sms",
+        "originator": "31XXXXXXXXX",
+        "body": "Hi! This is your first message.",
+        "reference": null,
+        "validity": null,
+        "gateway": 10,
+        "typeDetails": {},
+        "datacoding": "plain",
+        "mclass": 1,
+        "scheduledDatetime": null,
+        "createdDatetime": "2019-02-19T11:56:17+00:00",
+        "recipients": {
+            "totalCount": 1,
+            "totalSentCount": 1,
+            "totalDeliveredCount": 0,
+            "totalDeliveryFailedCount": 0,
+            "items": [
+                {
+                    "recipient": 31XXXXXXXXX,
+                    "status": "sent",
+                    "statusDatetime": "2019-02-19T11:56:17+00:00"
+                }
+            ]
+        }
+    }
+}
+
+### Send POST request with json body
+POST http://localhost:8900/api/add/device
+Content-Type: application/json
+Authorization: Bearer 2|uxaqGHWqtuMcs7WgJwlzla7hI4NfhiaJ3p0w3iQ0
+Accept: application/json
+
+{
+    "name": "Samsung note 22",
+    "model": "note 22",
+    "app_version": "1",
+    "android_version": "12",
+    "device_unique_id": "c3q767cde25ae01a"
+}
+
+### Send GET request with json bod
+GET http://localhost:8000/api/application/setting
+Content-Type: application/json
+Authorization: Bearer 2|YR2W4iU335TUjCg5fcZEjV8ygGlDTuq7vUnHStxl
+Accept: application/json
+
+{
+
+}
+
+### Send GET request with json body
+GET http://localhost:8000/api/sending/setting
+Content-Type: application/json
+Authorization: Bearer 2|YR2W4iU335TUjCg5fcZEjV8ygGlDTuq7vUnHStxl
+Accept: application/json
+
+{
+
+}
+
+### Send GET request with json body
+GET http://192.168.1.108:8088/api/queues
+Content-Type: application/json
+Authorization: Bearer 1|canMudfNTdLryQRq2a4OU34U5u3RrdrfzHXsuJdt
+Accept: application/json
+
+{
+
+}
+
+### Send POST request with json body
+POST http://localhost:8000/api/authentication
+Content-Type: application/json
+Accept: application/json
+
+{
+"email": "jone@demo.com",
+"password": "123456"
+}

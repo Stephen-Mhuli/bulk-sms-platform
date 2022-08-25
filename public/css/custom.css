@@ -1,0 +1,220 @@
+h2.card-title {
+    font-size: 2rem;
+}
+
+.toast-header {
+    min-width: 200px;
+}
+
+#toastsContainerTopRight {
+    top: 60px !important;
+}
+
+.current-plan li {
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 85px;
+    margin-bottom: 0;
+}
+
+
+.current-plan .title {
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.current-plan .value {
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.current-plan .no-value {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.daterangepicker.show-calendar {
+    bottom: 0 !important;
+    top: 439px !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: initial;
+}
+
+.emailbox-unread {
+    background-color: rgba(0, 0, 0, .05) !important;
+}
+
+.emailbox-read {
+    background-color: initial !important;
+}
+
+.emailbox-unread:hover {
+    cursor: pointer;
+}
+
+
+/*Billing Page for customer*/
+.plan-des-title {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.plan-des-value {
+    font-family: 'Roboto';
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 2px;
+    margin: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.plans-wrapper {
+    font-family: 'Roboto';
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.plan-active {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 3px solid #4481E8;
+}
+
+.plan-title-current {
+    color: #4481E8;
+}
+
+/*End Billing Page for customer*/
+
+/*miscellaneous*/
+.table-action {
+    width: 40px;
+}
+
+.img-demo-setting {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.admin-dashboard-canvas {
+    min-height: 250px;
+    height: 250px;
+    max-height: 250px;
+    max-width: 100%;
+}
+
+.customer-dashboard-canvas {
+    min-height: 250px;
+    height: 250px;
+    max-height: 250px;
+    max-width: 100%;
+}
+
+.compose-select {
+    display: none;
+    width: 100%;
+}
+
+.compose-body {
+    height: 300px !important;
+}
+
+.dropdown-profile {
+    left: inherit;
+    right: 0;
+}
+
+.layout-logo {
+    max-height: 34px;
+}
+
+.customer-profile {
+    height: 34px!important;
+    width: 34px!important;
+}
+/*for select2*/
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #007bff !important;
+    border-color: #006fe6 !important;
+    color: #fff !important;
+    padding: 0 10px;
+    margin-top: .31rem;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: rgba(255,255,255,.7) !important;
+    float: right;
+    margin-left: 5px;
+    margin-right: -2px;
+}
+
+.border-bottom-1{
+    border-bottom: 1px solid #BD8181;
+}
+.price-tag{
+    font-size: 22px !important;
+    color: var(--main-color);
+}
+
+
+.filter-section .filter-by{
+    height: calc(2.25rem + 2px);
+    border-radius: 18px;
+}
+
+.text-primary{
+    color:var(--main-color) !important;
+}
+.text-white{
+    color:white !important;
+}
+
+
+/*Addon*/
+#payment_gateway_form .nav-tabs.flex-column .nav-link{
+    color:#6c757d;
+}
