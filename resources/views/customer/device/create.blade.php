@@ -5,7 +5,7 @@
 @section('extra-css')
     <link rel="stylesheet" href="{{asset('plugins/select2/css/select2.min.css')}}">
 @endsection
-
+{{-- Hatari --}}
 @section('content')
     <section class="content">
         <div class="row">
